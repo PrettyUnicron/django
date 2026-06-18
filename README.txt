@@ -1,5 +1,5 @@
 This Project is made using this video as guide: https://www.youtube.com/watch?v=c-QsfbznSXI&t=1s
-Installation Guide(Windows):
+Backend Installation Guide(Windows):
 
 1. Enter into a virtual environment
 python -m venv env
@@ -79,5 +79,8 @@ To run the server use "python manage.py runserver"
 Translating from MERN Stack
 urls.py works as the routers
 views.py works as the controllers
-serializers.py works as the services
 models.py works as the models
+
+serializers convert data to JSON and validate incoming data
+
+------------------------------------------------------------------------------------------------------
